@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.github.antolius.demo</id>
+
+    <name>Actions Launcher Demo</name>
+    <summary>Demo for launching actions in the application via D-Bus</summary>
+
+    <metadata_license>CC-BY-4.0</metadata_license>
+    <project_license>GPL-3.0-or-later</project_license>
+
+    <description>
+    <p>
+    Demo for launching actions in the application via D-Bus.
+    </p>
+    </description>
+
+    <launchable type="desktop-id">com.github.antolius.demo.desktop</launchable>
+
+    <branding>
+        <color type="primary">#f37329</color>
+    </branding>
+</component>

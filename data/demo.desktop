@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Actions Launcher Demo
+Comment=Demo for launching actions in the application via D-Bus
+Categories=Education;ComputerScience;
+
+Icon=com.github.antolius.demo
+Exec=com.github.antolius.demo
+
+DBusActivatable=true
+Terminal=false
+Actions=lock;unlock;
+
+[Desktop Action lock]
+Name=Lock
+Icon=changes-prevent-symbolic
+Exec=com.github.antolius.demo
+
+[Desktop Action unlock]
+Name=Unlock
+Icon=changes-allow-symbolic
+Exec=com.github.antolius.demo
